@@ -14,6 +14,9 @@ public class MainActivity extends AppCompatActivity {
     ListView listView;
     String[] cities = {"Mumbai","Lahore","Bangok","London","Paris","Dubai","Singapore",
     "New York","Kuala Lumpur","Tokyo","Istanbul"};
+    int id[] = {R.drawable.mumbai,R.drawable.bankok,R.drawable.london,R.drawable.paris,R.drawable.dubai,R.drawable.singapore,
+                    R.drawable.kauala,R.drawable.istanbul,R.drawable.tok  };
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
